@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title%}Home{% endblock %}
+{% block content%}
+
+<div class="container">
+    <h2 class="display-4">statistics</h2>
+    <div>
+        <h3 class="display-6">at this moment we are storing: <b>{{safe_count}}</b> fragile data</h3>
+        <h3 class="display-6">we have already been trusted by over <b>{{user_count}}</b> people</h3>
+    </div>
+
+    <h2 class="display-4">why should you choose our application?</h2>
+    <div>
+        <ul>
+            <li>
+                <h3 class="display-6">guarantee of quality</h3>
+            </li>
+            <li>
+                <h3 class="display-6">there aren't any exclusions</h3>
+            </li>
+            <li>
+                <h3 class="display-6">free of charge</h3>
+            </li>
+            <li>
+                <h3 class="display-6">we have fully comprehensive application</h3>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+
+{% endblock %}
